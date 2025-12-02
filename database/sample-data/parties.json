@@ -1,0 +1,13 @@
+[
+  {
+    "name": "Friday Night Movies",
+    "location": "Home Apartment",
+    "deadlineToVote": "2025-12-10T23:59:00.000Z",
+    "allowGuestProposals": true,
+    "hostName": "Varsha",
+    "hostEmail": "varsha@gmail.com",
+    "adminToken": "admintoken123",
+    "inviteToken": "invitetoken456",
+    "status": "OPEN"
+  }
+]
