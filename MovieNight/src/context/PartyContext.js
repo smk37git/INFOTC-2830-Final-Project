@@ -1,5 +1,5 @@
 import { createContext, useContext, useState } from "react";
-import api from "../api/api";
+import api from "../utils/api";
 
 const PartyContext = createContext();
 
