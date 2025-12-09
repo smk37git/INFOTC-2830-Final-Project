@@ -1,0 +1,14 @@
+{
+  "name": "movienight-db-mongoose",
+  "version": "1.0.0",
+  "description": "Varsha's MongoDB + Mongoose code for MovieNight",
+  "main": "index.js",
+  "scripts": {
+    "seed": "node scripts/seed.js",
+    "crud": "node scripts/crudDemo.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "mongoose": "^8.0.0"
+  }
+}
