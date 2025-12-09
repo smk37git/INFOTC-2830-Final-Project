@@ -76,10 +76,12 @@
 }
 
 .box input[type="text"],
+.box input[type="email"],
 .box input[type="datetime-local"],
 .box input[type="date"],
 .box input[type="time"],
-.box input[type="url"] {
+.box input[type="url"],
+.box input[type="number"] {
   width: 100%;
   padding: 0.75rem 1rem;
   margin-bottom: 1.25rem;
@@ -269,6 +271,11 @@
   text-decoration: underline;
 }
 
+.item-row small {
+  font-size: 0.75rem;
+  color: #666;
+}
+
 /* Vote buttons */
 .vote-btns {
   display: flex;
@@ -302,4 +309,33 @@
 
 .vote-btns .down:hover {
   background: #d32f2f;
+}
+
+.vote-btns .delete {
+  background: #424242;
+}
+
+.vote-btns .delete:hover {
+  background: #616161;
+}
+
+/* Error message */
+.error-message {
+  background: rgba(198, 40, 40, 0.2);
+  border: 1px solid #c62828;
+  color: #ff6b6b;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+/* Loading spinner */
+.spin {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
 }
